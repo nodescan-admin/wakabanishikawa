@@ -262,7 +262,7 @@ ul.no-indents li {
 .text-col {
 	width: 90%;
 	min-width: 200px;
-	margin: 4px;
+	margin: 10px;
 }
 
 .row {
@@ -414,6 +414,7 @@ div.logo p {
 .award-image {
 	border: 10px;
 	float: left;
+	max-width:260px;
 	/* max-height:260px; */
 }
 
@@ -451,6 +452,7 @@ div.logo p {
 	/* background:rgb(217, 243, 245); */
 
 	padding-top: 6px;
+	padding-bottom: 12px;
 	line-height: 1.2em;
 }
 
@@ -1559,6 +1561,9 @@ img.alignright.image-full-width {
 		font-size: 80%;
 	}
 
+	.text-col {
+		margin: 4px;
+	}
 
 	.column {
 		flex: 1;
