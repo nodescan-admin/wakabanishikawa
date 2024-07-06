@@ -254,6 +254,26 @@ ul.no-indents li {
 	/* Remove bullets */
 }
 
+/* container */
+.responsive-three-column-grid {
+    display:block;
+}
+
+/* columns */
+.responsive-three-column-grid > * {
+    padding:1rem;
+}
+
+/* tablet breakpoint */
+@media (min-width:768px) {
+    .responsive-three-column-grid {
+        display: grid;
+        grid-auto-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
 .image-col {
 	width: 90%;
 	min-width: 200px;
@@ -281,8 +301,8 @@ ul.no-indents li {
 
 .rightside-list {
 	min-width: 200px;
-	width: 90%;
-	font-size: 0.9em;
+	/* width: 90%;*/
+	/* font-size: 0.9em;*/
 	/* word-break: break-all; */
 }
 
@@ -412,10 +432,11 @@ div.logo p {
 }
 
 .award-image {
-	border: 10px;
-	float: left;
-	max-width:260px;
-	/* max-height:260px; */
+	/* border: 10px; */
+	/* float: left; */
+	/* max-width:460px;
+	min-width:260px; */
+	height:320px;
 }
 
 /*
@@ -798,6 +819,10 @@ section.content p.address {
 
 section.content p {
 	margin-bottom: 5px;
+}
+
+.indented {
+	margin-left: 12px;
 }
 
 h3.heading {
