@@ -150,6 +150,7 @@ a[href^=tel] {
 .biz-hour {
 	border-collapse: collapse;
 	min-width: 300px;
+	width:100%;
 }
 
 .biz-hour th {
@@ -641,12 +642,17 @@ div.logo p {
 	margin-bottom: 10px;
 }
 
-
 .este-article {
 	/* padding:20px; */
 	/* margin-bottom:20px; */
 	/* border:1px solid #ebebeb; */
 	margin-top: 10px;
+}
+
+div#a7.heading {
+	padding-bottom: 6px;
+	font-weight: bold;
+	font-size: 1.1em;
 }
 
 h3#a5.heading {
@@ -668,7 +674,6 @@ h3#a5.heading {
 	/* background-color:rgb(240, 247, 240); */
 	/* background:url(../images/heading3.png) repeat-x 0 0; */
 }
-
 
 h3#a4.heading {
 	/*
